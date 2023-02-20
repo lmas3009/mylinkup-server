@@ -6,7 +6,11 @@ import bp from "body-parser";
 import connect from "mongoose";
 import dotenv from "dotenv";
 import { createuserinfo, getuserinfo } from "./utils/userinfo.js";
-import { createmediapage, getmediapage } from "./utils/mediapage.js";
+import {
+  createmediapage,
+  getmediapage,
+  DeletePage,
+} from "./utils/mediapage.js";
 
 const { success, error } = pkg;
 
